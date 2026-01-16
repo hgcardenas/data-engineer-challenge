@@ -73,3 +73,18 @@ Returns:
 ## Sugerencias
 * Para medir la memoria en uso te recomendamos [memory-profiler](https://pypi.org/project/memory-profiler/) o [memray](https://github.com/bloomberg/memray)
 * Para medir el tiempo de ejecución te recomendamos [py-spy](https://github.com/benfred/py-spy) o [Python Profilers](https://docs.python.org/3/library/profile.html)
+
+# Solution Documentation
+
+## Dataset setup
+
+Due to the size of the dataset (~398MB), it is not included in the repository.
+
+### Steps
+1. Download the dataset from the public link provided in the challenge instructions.
+2. Place the file locally at: data\farmers-protest-tweets-2021-2-4.json
+3. Do not commit the dataset to the repository.
+
+### Notes
+- All solutions assume local file access for reproducibility and to avoid network-related variability.
+- The dataset is read in streaming mode, so it does not need to be fully loaded into memory.
