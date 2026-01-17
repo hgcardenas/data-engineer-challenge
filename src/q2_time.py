@@ -1,10 +1,10 @@
 import json
 from collections import defaultdict
-from typing import List, Tuple
+from typing import List, Tuple, Optional, Dict, Any
 import emoji
 
 
-def _get_text(record: dict) -> str | None:
+def _get_text(record: Dict[str, Any]) -> Optional[str]:
     """
     extract the text from a tweet record.
     In this dataset the correct field is 'content'.
