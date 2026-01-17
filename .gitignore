@@ -1,0 +1,53 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Testing / tooling
+# ==============================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Jupyter / notebooks
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# OS / editors
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==============================
+# Data / outputs (avoid committing large local artifacts)
+# ==============================
+data/
+outputs/
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.csv
+*.tsv
+*.jsonl
+*.log
